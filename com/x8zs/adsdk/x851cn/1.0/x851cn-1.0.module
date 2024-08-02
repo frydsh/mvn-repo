@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.x8zs.adsdk",
+    "module": "x851cn",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "2qvurn47hraltp2lnstjzugsti"
+    }
+  },
+  "variants": [
+    {
+      "name": "x851cnReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "x851cn-1.0.aar",
+          "url": "x851cn-1.0.aar",
+          "size": 262648,
+          "sha512": "4c5272db4a82476bbbcc0988250f98fd3326fa4888c6f15ba30d2c60564b538a2fec59c9d669614bdecc757bc8e184b72e0b8e17afc0166361e3515c7fc98080",
+          "sha256": "63bf3b76fa37ae07e3e4f2f9d835a1b6c602d477161f53c09bf0ec35ff564094",
+          "sha1": "1cafea69ca5e3825b196c2b9b62850718046df1a",
+          "md5": "206bbcab552411316f0107c0f22827ba"
+        }
+      ]
+    },
+    {
+      "name": "x851cnReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.pangle.cn.m",
+          "module": "mediation-sdk",
+          "version": {
+            "requires": "6.2.1.7"
+          }
+        },
+        {
+          "group": "com.pangle.cn",
+          "module": "mediation-test-tools",
+          "version": {
+            "requires": "6.2.1.7"
+          }
+        },
+        {
+          "group": "com.pangle.cn",
+          "module": "mediation-gdt-adapter",
+          "version": {
+            "requires": "4.575.1445.1"
+          }
+        },
+        {
+          "group": "com.qq.e.union.m",
+          "module": "union",
+          "version": {
+            "requires": "4.575.1445"
+          }
+        },
+        {
+          "group": "com.pangle.cn",
+          "module": "mediation-baidu-adapter",
+          "version": {
+            "requires": "9.35.1"
+          }
+        },
+        {
+          "group": "com.baidu.mobads",
+          "module": "mobads",
+          "version": {
+            "requires": "9.35"
+          }
+        },
+        {
+          "group": "com.pangle.cn",
+          "module": "mediation-ks-adapter",
+          "version": {
+            "requires": "3.3.63.2"
+          }
+        },
+        {
+          "group": "com.kwad.sdk",
+          "module": "kssdk-ad",
+          "version": {
+            "requires": "3.3.63"
+          }
+        },
+        {
+          "group": "com.pangle.cn",
+          "module": "mediation-sigmob-adapter",
+          "version": {
+            "requires": "4.17.1.1"
+          }
+        },
+        {
+          "group": "com.sigmob.sdk",
+          "module": "common",
+          "version": {
+            "requires": "1.6.7"
+          }
+        },
+        {
+          "group": "com.sigmob.sdk",
+          "module": "adsdk",
+          "version": {
+            "requires": "4.17.1"
+          }
+        },
+        {
+          "group": "com.beizi",
+          "module": "fusion",
+          "version": {
+            "requires": "4.90.4.12"
+          }
+        },
+        {
+          "group": "com.beizi",
+          "module": "adsdk",
+          "version": {
+            "requires": "3.5.0.11"
+          }
+        },
+        {
+          "group": "com.blankj",
+          "module": "utilcode",
+          "version": {
+            "requires": "1.25.8"
+          }
+        },
+        {
+          "group": "me.drakeet.support",
+          "module": "toastcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "x851cn-1.0.aar",
+          "url": "x851cn-1.0.aar",
+          "size": 262648,
+          "sha512": "4c5272db4a82476bbbcc0988250f98fd3326fa4888c6f15ba30d2c60564b538a2fec59c9d669614bdecc757bc8e184b72e0b8e17afc0166361e3515c7fc98080",
+          "sha256": "63bf3b76fa37ae07e3e4f2f9d835a1b6c602d477161f53c09bf0ec35ff564094",
+          "sha1": "1cafea69ca5e3825b196c2b9b62850718046df1a",
+          "md5": "206bbcab552411316f0107c0f22827ba"
+        }
+      ]
+    }
+  ]
+}
