@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.x8zs.adsdk",
+    "module": "hlx",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "6savace4abebxcdhhdomnlare4"
+    }
+  },
+  "variants": [
+    {
+      "name": "hlxReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "hlx-1.1.1.aar",
+          "url": "hlx-1.1.1.aar",
+          "size": 109369,
+          "sha512": "dc28684f7b09c8f16535a7e8c39ace138958358b4b8cf07c71789b908466a405d5e4ae29170002a8682243a5ad4d99c0108a1df513826f009a413e29ce7063f3",
+          "sha256": "96b3869bc328dd47c9f5d9bb6a7a04b600a16473ec89490faadb2e39c08a7d09",
+          "sha1": "d64f6e04349459d20fdea59673909bba67e24cc7",
+          "md5": "82021bc16b24d394fbe73f619fda46cb"
+        }
+      ]
+    },
+    {
+      "name": "hlxReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.pangle.cn.m",
+          "module": "mediation-sdk",
+          "version": {
+            "requires": "6.2.1.7"
+          }
+        },
+        {
+          "group": "com.pangle.cn",
+          "module": "mediation-test-tools",
+          "version": {
+            "requires": "6.2.1.7"
+          }
+        },
+        {
+          "group": "com.blankj",
+          "module": "utilcode",
+          "version": {
+            "requires": "1.25.8"
+          }
+        },
+        {
+          "group": "me.drakeet.support",
+          "module": "toastcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hlx-1.1.1.aar",
+          "url": "hlx-1.1.1.aar",
+          "size": 109369,
+          "sha512": "dc28684f7b09c8f16535a7e8c39ace138958358b4b8cf07c71789b908466a405d5e4ae29170002a8682243a5ad4d99c0108a1df513826f009a413e29ce7063f3",
+          "sha256": "96b3869bc328dd47c9f5d9bb6a7a04b600a16473ec89490faadb2e39c08a7d09",
+          "sha1": "d64f6e04349459d20fdea59673909bba67e24cc7",
+          "md5": "82021bc16b24d394fbe73f619fda46cb"
+        }
+      ]
+    }
+  ]
+}
