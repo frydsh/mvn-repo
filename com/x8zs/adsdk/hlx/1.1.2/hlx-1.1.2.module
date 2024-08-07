@@ -2,7 +2,7 @@
   "formatVersion": "1.1",
   "component": {
     "group": "com.x8zs.adsdk",
-    "module": "stub",
+    "module": "hlx",
     "version": "1.1.2",
     "attributes": {
       "org.gradle.status": "release"
@@ -11,12 +11,12 @@
   "createdBy": {
     "gradle": {
       "version": "6.8.3",
-      "buildId": "trbk7nwxyrcllpe4mrywgzwbl4"
+      "buildId": "ullurj3jibegtjpuqtoqr36ina"
     }
   },
   "variants": [
     {
-      "name": "stubReleaseApiPublication",
+      "name": "hlxReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -25,18 +25,18 @@
       },
       "files": [
         {
-          "name": "stub-1.1.2.aar",
-          "url": "stub-1.1.2.aar",
-          "size": 80098,
-          "sha512": "5a9d8b22021ec96f7876a65af050ef82c73d6963a37ff53a91406aaf2e7058cf68df3421da0025f896b227ff4627488edef49be1965aa2a8f9938134526ce520",
-          "sha256": "98e369b687ba42049d497797e7248890f0276dd743c99170e0cf39336e77750d",
-          "sha1": "a8f8e40354826b866c3bbdfa2229c343a1b7e353",
-          "md5": "e3407c6514b7e070b376676f7776e8e7"
+          "name": "hlx-1.1.2.aar",
+          "url": "hlx-1.1.2.aar",
+          "size": 107883,
+          "sha512": "d70458073b920bdbc93e4034a680d4a0d3e1e8b4b78beee93be14c1244e140d78dd2b03c495af6854b2006b9291f5a1ffe18c1c28033554db0aa4b24175014ab",
+          "sha256": "87a63d98426e7dfaf885cf000ddabffd02c48e8f77af756acb928c21b6750838",
+          "sha1": "35206f545a4a3bfe08ff33d6e51638d373a1ec4a",
+          "md5": "0aa995fbf512ca24ad83ee510879ead2"
         }
       ]
     },
     {
-      "name": "stubReleaseRuntimePublication",
+      "name": "hlxReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -44,6 +44,20 @@
         "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
+        {
+          "group": "com.pangle.cn.m",
+          "module": "mediation-sdk",
+          "version": {
+            "requires": "6.2.1.7"
+          }
+        },
+        {
+          "group": "com.pangle.cn",
+          "module": "mediation-test-tools",
+          "version": {
+            "requires": "6.2.1.7"
+          }
+        },
         {
           "group": "com.blankj",
           "module": "utilcode",
@@ -75,13 +89,13 @@
       ],
       "files": [
         {
-          "name": "stub-1.1.2.aar",
-          "url": "stub-1.1.2.aar",
-          "size": 80098,
-          "sha512": "5a9d8b22021ec96f7876a65af050ef82c73d6963a37ff53a91406aaf2e7058cf68df3421da0025f896b227ff4627488edef49be1965aa2a8f9938134526ce520",
-          "sha256": "98e369b687ba42049d497797e7248890f0276dd743c99170e0cf39336e77750d",
-          "sha1": "a8f8e40354826b866c3bbdfa2229c343a1b7e353",
-          "md5": "e3407c6514b7e070b376676f7776e8e7"
+          "name": "hlx-1.1.2.aar",
+          "url": "hlx-1.1.2.aar",
+          "size": 107883,
+          "sha512": "d70458073b920bdbc93e4034a680d4a0d3e1e8b4b78beee93be14c1244e140d78dd2b03c495af6854b2006b9291f5a1ffe18c1c28033554db0aa4b24175014ab",
+          "sha256": "87a63d98426e7dfaf885cf000ddabffd02c48e8f77af756acb928c21b6750838",
+          "sha1": "35206f545a4a3bfe08ff33d6e51638d373a1ec4a",
+          "md5": "0aa995fbf512ca24ad83ee510879ead2"
         }
       ]
     }
