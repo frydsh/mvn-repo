@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.x8zs.adsdk",
+    "module": "stub",
+    "version": "1.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "5ehykkz3bne6nghunjua7h6vkm"
+    }
+  },
+  "variants": [
+    {
+      "name": "stubReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "stub-1.1.6.aar",
+          "url": "stub-1.1.6.aar",
+          "size": 83419,
+          "sha512": "db9532798f3dedb26b569eb94cbf5726c56e2edda72e9a9708f204a60a6c4627bdb4f1991278634608fa1d4186464a8d8dbaca0d17549a4656e037581f05d213",
+          "sha256": "e5468eaa45ca224dddd25c49539e0749fb3697d52f1d47844fa7965780e09b5f",
+          "sha1": "a445997ad3c7dac75bf8837fe61c035bd15a0ae3",
+          "md5": "eeaf3a216d7322342282c7136a72cd51"
+        }
+      ]
+    },
+    {
+      "name": "stubReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.blankj",
+          "module": "utilcode",
+          "version": {
+            "requires": "1.25.8"
+          }
+        },
+        {
+          "group": "me.drakeet.support",
+          "module": "toastcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stub-1.1.6.aar",
+          "url": "stub-1.1.6.aar",
+          "size": 83419,
+          "sha512": "db9532798f3dedb26b569eb94cbf5726c56e2edda72e9a9708f204a60a6c4627bdb4f1991278634608fa1d4186464a8d8dbaca0d17549a4656e037581f05d213",
+          "sha256": "e5468eaa45ca224dddd25c49539e0749fb3697d52f1d47844fa7965780e09b5f",
+          "sha1": "a445997ad3c7dac75bf8837fe61c035bd15a0ae3",
+          "md5": "eeaf3a216d7322342282c7136a72cd51"
+        }
+      ]
+    }
+  ]
+}
