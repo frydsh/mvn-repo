@@ -1,0 +1,201 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.x8zs.adsdk",
+    "module": "x851cn",
+    "version": "1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "le4lk4sim5dyrjmzztouotzj3m"
+    }
+  },
+  "variants": [
+    {
+      "name": "x851cnReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "x851cn-1.2.3.aar",
+          "url": "x851cn-1.2.3.aar",
+          "size": 154461,
+          "sha512": "b326e1b110357869bece025181b580eafe5bfb9f01f85b709fd3e3b7fb6f58f1e436b5499c6cf44d2ddeb1ec2709eeea1d993b4536d2bba6bd7681a9703ae7dc",
+          "sha256": "fa2adb8d4af28a3de4a27270c10e626e5ce3d873c0c23fc1636296c73ded6338",
+          "sha1": "ab300afd7c295829c736203b7669e03f2010070e",
+          "md5": "10740a9b07e4102b81309644f0277b6e"
+        }
+      ]
+    },
+    {
+      "name": "x851cnReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.sigmob.sdk",
+          "module": "common",
+          "version": {
+            "requires": "1.8.3"
+          }
+        },
+        {
+          "group": "com.sigmob.sdk",
+          "module": "adsdk",
+          "version": {
+            "requires": "4.23.2"
+          }
+        },
+        {
+          "group": "com.sigmob.sdk",
+          "module": "tobid",
+          "version": {
+            "requires": "4.6.20"
+          }
+        },
+        {
+          "group": "com.sigmob.sdk",
+          "module": "xbid",
+          "version": {
+            "requires": "1.0.0-4.6.20"
+          }
+        },
+        {
+          "group": "com.beizi",
+          "module": "fusion",
+          "version": {
+            "requires": "5.2.1.8"
+          }
+        },
+        {
+          "group": "com.sigmob.sdk",
+          "module": "beizi",
+          "version": {
+            "requires": "5.2.1.8-4.6.20"
+          }
+        },
+        {
+          "group": "com.baidu.mobads",
+          "module": "mobads",
+          "version": {
+            "requires": "9.391"
+          }
+        },
+        {
+          "group": "com.sigmob.sdk",
+          "module": "bd",
+          "version": {
+            "requires": "9.391-4.6.20"
+          }
+        },
+        {
+          "group": "com.qq.e.union.m",
+          "module": "union",
+          "version": {
+            "requires": "4.640.1510"
+          }
+        },
+        {
+          "group": "com.sigmob.sdk",
+          "module": "gdt",
+          "version": {
+            "requires": "4.640.1510-4.6.20"
+          }
+        },
+        {
+          "group": "com.kwad.sdk",
+          "module": "kssdk-ad",
+          "version": {
+            "requires": "4.4.20.1"
+          }
+        },
+        {
+          "group": "com.sigmob.sdk",
+          "module": "ks",
+          "version": {
+            "requires": "4.4.20.1-4.6.20"
+          }
+        },
+        {
+          "group": "doublejump.top",
+          "module": "base",
+          "version": {
+            "requires": "1.1.19"
+          }
+        },
+        {
+          "group": "doublejump.top",
+          "module": "channel",
+          "version": {
+            "requires": "1.2.7"
+          }
+        },
+        {
+          "group": "doublejump.top",
+          "module": "zhike",
+          "version": {
+            "requires": "1.2.7"
+          }
+        },
+        {
+          "group": "doublejump.top",
+          "module": "adsdk",
+          "version": {
+            "requires": "1.2.7"
+          }
+        },
+        {
+          "group": "com.blankj",
+          "module": "utilcode",
+          "version": {
+            "requires": "1.25.8"
+          }
+        },
+        {
+          "group": "me.drakeet.support",
+          "module": "toastcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "x851cn-1.2.3.aar",
+          "url": "x851cn-1.2.3.aar",
+          "size": 154461,
+          "sha512": "b326e1b110357869bece025181b580eafe5bfb9f01f85b709fd3e3b7fb6f58f1e436b5499c6cf44d2ddeb1ec2709eeea1d993b4536d2bba6bd7681a9703ae7dc",
+          "sha256": "fa2adb8d4af28a3de4a27270c10e626e5ce3d873c0c23fc1636296c73ded6338",
+          "sha1": "ab300afd7c295829c736203b7669e03f2010070e",
+          "md5": "10740a9b07e4102b81309644f0277b6e"
+        }
+      ]
+    }
+  ]
+}
